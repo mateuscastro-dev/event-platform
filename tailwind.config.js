@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.tsx", "./src/**/*.css"],
   theme: {
     extend: {
+      backgroundImage: {
+        blur: "url(/src/assets/home-background.png)",
+      },
       fontFamily: {
         sans: "Roboto, sans-serif",
       },
